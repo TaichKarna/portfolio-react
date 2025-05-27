@@ -10,7 +10,7 @@ const Employment = () => {
     {
       company: 'Vighnotech',
       role: 'full-stack developer',
-      period: '2024 Nov – 2024 May',
+      period: '2024 Nov – 2025 May',
       description:
         'Worked on various projects involving React Native, React, Node.js, and PostgreSQL to build CRM systems, applications, and backend services. Focused on building and maintaining custom CRM systems and business automation tools for clients across multiple sectors.',
       tags: ['React Native', 'React', 'Node.js', 'PostgreSQL'],
