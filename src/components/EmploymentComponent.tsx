@@ -4,35 +4,17 @@ import { Button } from '@/components/ui/button';
 import { ExternalLink, ChevronRight } from 'lucide-react';
 import SectionHeading from './SectionHeading';
 import MainContainer from './MainContainer';
+import config from '@/config.json';
 
 const Employment = () => {
-  const jobs = [
-    {
-      company: 'Vighnotech',
-      role: 'full-stack developer',
-      period: '2024 Nov – 2025 May',
-      description:
-        'Worked on various projects involving React Native, React, Node.js, and PostgreSQL to build CRM systems, applications, and backend services. Focused on building and maintaining custom CRM systems and business automation tools for clients across multiple sectors.',
-      tags: ['React Native', 'React', 'Node.js', 'PostgreSQL'],
-      link: 'https://vighnotech.com',
-    },
-    {
-      company: 'Workview',
-      role: 'full stack intern',
-      period: '2024 Oct – 2025 Jan',
-      description:
-        'Contributed to developing a CRM application using React Native during an internship. Gained practical experience building scalable mobile solutions and collaborating within a startup environment.',
-      tags: ['React Native', 'CRM', 'JavaScript'],
-      link: 'https://workview.io',
-    },
-  ];
+  const jobs = config.employment;
 
   return (
     <MainContainer>
       <SectionHeading heading="employment" />
 
       <div className="space-y-4">
-        {jobs.map((job, index) => (
+        {jobs.map((job: typeof jobs[0], index) => (
           <Card
             key={index}
             className="bg-card border-border hover:border-muted-foreground/30 transition-colors group px-2 py-3"

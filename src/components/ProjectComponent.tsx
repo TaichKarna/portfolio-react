@@ -4,31 +4,10 @@ import { Button } from '@/components/ui/button';
 import { ExternalLink, ChevronRight } from 'lucide-react';
 import SectionHeading from './SectionHeading';
 import MainContainer from './MainContainer';
+import config from '@/config.json';
 
 const Projects = () => {
-  const projects = [
-    {
-      title: 'WordSpace',
-      description:
-        'a full-stack MERN blog app where users can create, edit, and delete posts, with admin control over users, stats, and moderation.',
-      tags: ['mongodb', 'express', 'react', 'nodejs', 'javascript'],
-      link: 'https://github.com/TaichKarna/WordSpace',
-    },
-    {
-      title: 'CEREBUS-AI-CyberShield',
-      description:
-        'an ai-powered malware detection system using static, dynamic, and hybrid analysis techniques, with comprehensive reporting.',
-      tags: ['jupyter', 'python', 'machine-learning', 'cybersecurity'],
-      link: 'https://github.com/TaichKarna/CEREBUS-AI-CyberShield',
-    },
-    {
-      title: 'LinkUp',
-      description:
-        'a real-time chat app built with react native and powered by a node.js + express backend, leveraging socket.io for live messaging.',
-      tags: ['react-native', 'nodejs', 'express', 'socket.io'],
-      link: 'https://github.com/TaichKarna/LinkUp',
-    },
-  ];
+  const { projects } = config;
 
   return (
     <MainContainer>

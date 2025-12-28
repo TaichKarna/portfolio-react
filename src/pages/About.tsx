@@ -1,12 +1,10 @@
 import MainContainer from '@/components/MainContainer';
-import Hero from '@/components/Hero';
 import Back from '@/components/BackArrow';
 
 const About = () => {
   return (
     <MainContainer className="">
-      <Hero />
-      <div className="pt-10 px-4 sm:px-6 md:px-8 pb-20">
+      <div className="pt-10 pb-20 lg:pb-16">
         <div className="flex flex-col gap-10">
           <Back />
           <div className="space-y-6 text-muted-foreground leading-relaxed">
@@ -37,8 +35,8 @@ const About = () => {
               This learning experience led to an internship with{' '}
               <strong>Shobhit</strong>, where I contributed to developing a CRM
               application using React Native at{' '}
-              <a href="https://workview.io" target="_blank">
-                @workview.io
+              <a href="https://procured.us" target="_blank" rel="noreferrer">
+                @procured
               </a>
               .
             </p>

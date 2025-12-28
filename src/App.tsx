@@ -5,10 +5,12 @@ import BlogPost from './pages/BlogPost';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import ProjectPage from './pages/ProjectPage';
+import Navigation from './components/Navigation';
 
 export default function App() {
   return (
     <Router>
+      <Navigation />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/blog" element={<Blog />} />

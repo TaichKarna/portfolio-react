@@ -1,32 +1,10 @@
 import { cn } from '@/lib/utils';
 import MainContainer from './MainContainer';
 import SectionHeading from './SectionHeading';
-const tech = [
-  {
-    title: 'React & React Native',
-    description:
-      'Building smooth web and mobile apps with user-friendly interfaces.',
-  },
-  {
-    title: 'Node.js',
-    description: 'Creating scalable and efficient backend APIs.',
-  },
-  {
-    title: 'PostgreSQL',
-    description: 'Managing complex data with a reliable database.',
-  },
-  {
-    title: 'TypeScript',
-    description:
-      'Ensuring cleaner, maintainable code by catching errors early.',
-  },
-  {
-    title: 'AWS',
-    description: 'Deploying and scaling apps on the cloud.',
-  },
-];
+import config from '@/config.json';
 
 const Arsenal = () => {
+  const tech = config.arsenal;
   return (
     <MainContainer>
       <SectionHeading heading="arsenal" />

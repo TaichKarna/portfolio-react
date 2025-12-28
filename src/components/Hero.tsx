@@ -3,14 +3,17 @@ import { FaGithub, FaTwitter } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import MainContainer from './MainContainer';
 import TimeCard from './TimeCard';
+import config from '@/config.json';
 
 const Hero = () => {
+  const { hero } = config;
+  
   return (
-    <MainContainer className="flex flex-col pt-20 px-4 sm:px-6 lg:px-8">
+    <MainContainer className="flex flex-col pt-8">
       <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-6 sm:gap-10">
         <div className="flex gap-6 text-2xl text-muted-foreground">
           <a
-            href="https://github.com/TaichKarna"
+            href={hero.socialLinks.github}
             target="_blank"
             aria-label="GitHub"
             rel="noreferrer"
@@ -19,7 +22,7 @@ const Hero = () => {
             <FaGithub />
           </a>
           <a
-            href="https://x.com/MandipSing47634"
+            href={hero.socialLinks.twitter}
             target="_blank"
             aria-label="Twitter"
             rel="noreferrer"
@@ -28,7 +31,7 @@ const Hero = () => {
             <FaTwitter />
           </a>
           <a
-            href="https://leetcode.com/u/TaichiKarna/"
+            href={hero.socialLinks.leetcode}
             target="_blank"
             aria-label="LeetCode"
             rel="noreferrer"
@@ -37,7 +40,7 @@ const Hero = () => {
             <SiLeetcode />
           </a>
           <a
-            href="mailto:taichikarna@gmail.com"
+            href={`mailto:${hero.socialLinks.email}`}
             aria-label="Email"
             className="hover:text-primary"
           >
@@ -48,30 +51,35 @@ const Hero = () => {
       </div>
 
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-primary mt-8">
-        mandeep<span className="text-primary">.</span>
+        {hero.name}<span className="text-primary">.</span>
       </h1>
 
       <p className="text-sm sm:text-base leading-relaxed max-w-xl pt-4">
-        full-stack developer focused on{' '}
-        <span className="font-semibold">react</span>,{' '}
-        <span className="font-semibold">node.js</span>, and{' '}
-        <span className="font-semibold">web technologies</span>. also building
-        mobile apps with <span className="font-semibold">react native</span>.
+        {hero.description}
       </p>
 
       <p className="text-sm sm:text-base leading-relaxed max-w-xl pt-4">
-        ex-intern @{' '}
+        frontend engineer @{' '}
         <a
-          href="https://workview.io/"
+          href={hero.workLinks.wireonelabs}
           target="_blank"
           rel="noreferrer"
           className="underline underline-offset-4 text-primary"
         >
-          workview.io
+          wireonelabs
         </a>
-        . ex full-stack intern @{' '}
+        . ex software engineering intern @{' '}
         <a
-          href="https://vighnotech.com/"
+          href={hero.workLinks.thinkact}
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 text-primary"
+        >
+          thinkact.ai
+        </a>
+        . ex full-stack developer @{' '}
+        <a
+          href={hero.workLinks.vighnotech}
           target="_blank"
           rel="noreferrer"
           className="underline underline-offset-4 text-primary"

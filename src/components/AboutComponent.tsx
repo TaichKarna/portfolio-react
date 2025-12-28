@@ -18,9 +18,9 @@ const About = () => {
                 Python, and tools like React and Node.js. My first hands-on
                 experience came during an internship with{' '}
                 <strong>Shobhit</strong>, where I helped build a CRM app using
-                React Native at
-                <a href="https://workview.io" target="_blank">
-                  @workview.io
+                React Native at{' '}
+                <a href="https://procured.us" target="_blank" rel="noreferrer">
+                  @procured
                 </a>
                 .
               </p>

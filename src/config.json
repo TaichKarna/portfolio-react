@@ -1,0 +1,142 @@
+{
+  "hero": {
+    "name": "mandeep",
+    "description": "full-stack developer focused on react, node.js, and web technologies. also building mobile apps with react native.",
+    "workHistory": "frontend engineer @ wireonelabs. ex software engineering intern @ thinkact.ai. ex full-stack developer @ vighnotech.",
+    "socialLinks": {
+      "github": "https://github.com/TaichKarna",
+      "twitter": "https://x.com/MandipSing47634",
+      "leetcode": "https://leetcode.com/u/TaichiKarna/",
+      "email": "taichikarna@gmail.com"
+    },
+    "workLinks": {
+      "wireonelabs": "https://wireonelabs.com",
+      "thinkact": "https://thinkact.ai",
+      "vighnotech": "https://vighnotech.com/"
+    }
+  },
+  "projects": [
+    {
+      "title": "WordSpace",
+      "description": "a full-stack MERN blog app where users can create, edit, and delete posts, with admin control over users, stats, and moderation.",
+      "tags": ["mongodb", "express", "react", "nodejs", "javascript"],
+      "link": "https://github.com/TaichKarna/WordSpace"
+    },
+    {
+      "title": "CEREBUS-AI-CyberShield",
+      "description": "an ai-powered malware detection system using static, dynamic, and hybrid analysis techniques, with comprehensive reporting.",
+      "tags": ["jupyter", "python", "machine-learning", "cybersecurity"],
+      "link": "https://github.com/TaichKarna/CEREBUS-AI-CyberShield"
+    },
+    {
+      "title": "LinkUp",
+      "description": "a real-time chat app built with react native and powered by a node.js + express backend, leveraging socket.io for live messaging.",
+      "tags": ["react-native", "nodejs", "express", "socket.io"],
+      "link": "https://github.com/TaichKarna/LinkUp"
+    }
+  ],
+  "employment": [
+    {
+      "company": "WireOneLabs",
+      "role": "Frontend Engineer",
+      "period": "Sept. 2025 – Present",
+      "description": "Improved React Native app reliability by increasing test coverage from ~10% to ~70%. Refactored agriculture management dashboard using Nuxt.js, increasing test coverage to ~80% and building custom tables and forms. Integrated Grafana dashboards and contributed frontend features for enterprise applications.",
+      "tags": ["React Native", "Nuxt.js", "Testing", "Grafana"],
+      "link": "https://wireonelabs.com"
+    },
+    {
+      "company": "ThinkAct.ai",
+      "role": "Software Engineering Intern",
+      "period": "July 2025 – Sept. 2025",
+      "description": "Developed a flow-based agent orchestration platform using NestJS and React, building drag-and-drop agent builders and APIs. Implemented backend workflow logic for an internal CRM, building rules to track document validity and trigger verification workflows.",
+      "tags": ["NestJS", "React", "Backend", "CRM"],
+      "link": "https://thinkact.ai"
+    },
+    {
+      "company": "Vighnotech",
+      "role": "full-stack developer",
+      "period": "2024 Nov – 2025 May",
+      "description": "Worked on various projects involving React Native, React, Node.js, and PostgreSQL to build CRM systems, applications, and backend services. Focused on building and maintaining custom CRM systems and business automation tools for clients across multiple sectors.",
+      "tags": ["React Native", "React", "Node.js", "PostgreSQL"],
+      "link": "https://vighnotech.com"
+    },
+    {
+      "company": "Procured",
+      "role": "Freelance full-stack Developer",
+      "period": "2024 Oct – 2025 Jan",
+      "description": "Contributed to developing a CRM application using React Native during an internship. Gained practical experience building scalable mobile solutions and collaborating within a startup environment.",
+      "tags": ["React Native", "CRM", "JavaScript"],
+      "link": "https://procured.us"
+    }
+  ],
+  "arsenal": [
+    {
+      "title": "React & React Native",
+      "description": "Building smooth web and mobile apps with user-friendly interfaces."
+    },
+    {
+      "title": "Node.js",
+      "description": "Creating scalable and efficient backend APIs."
+    },
+    {
+      "title": "NestJS",
+      "description": "Building robust, scalable server-side applications with TypeScript."
+    },
+    {
+      "title": "Next.js & Nuxt.js",
+      "description": "Building full-stack applications with server-side rendering and modern tooling."
+    },
+    {
+      "title": "TypeScript",
+      "description": "Ensuring cleaner, maintainable code by catching errors early."
+    },
+    {
+      "title": "PostgreSQL",
+      "description": "Managing complex relational data with a reliable database."
+    },
+    {
+      "title": "MongoDB",
+      "description": "Working with flexible NoSQL databases for modern applications."
+    },
+    {
+      "title": "Testing",
+      "description": "Writing comprehensive tests with Jest and Vitest for reliable applications."
+    },
+    {
+      "title": "Docker",
+      "description": "Containerizing applications for consistent deployment and scaling."
+    }
+  ],
+  "contact": {
+    "message": "i'm always open to new opportunities and collaborations. feel free to reach out!",
+    "links": {
+      "github": "https://github.com/taichkarna",
+      "twitter": "https://x.com/MandipSing47634",
+      "email": "taichikarna@gmail.com"
+    }
+  },
+  "blog": {
+    "status": "in progress",
+    "posts": [
+      {
+        "slug": "first-post",
+        "title": "First Post",
+        "date": "2025-01-15",
+        "excerpt": "Welcome to my blog! This is my first post where I'll be sharing my thoughts on development, technology, and my journey as a developer."
+      },
+      {
+        "slug": "react-router-in-ts",
+        "title": "React Router in TypeScript",
+        "date": "2025-01-20",
+        "excerpt": "Setting up React Router in a TypeScript project can be straightforward once you know the right patterns."
+      },
+      {
+        "slug": "typescript-tips",
+        "title": "TypeScript Tips for Better Development",
+        "date": "2025-01-25",
+        "excerpt": "TypeScript is a powerful tool that can significantly improve your development experience. Here are some tips I've learned."
+      }
+    ]
+  }
+}
+

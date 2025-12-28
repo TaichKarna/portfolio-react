@@ -10,7 +10,7 @@ const MainContainer: React.FC<MainContainerProps> = ({
   className = '',
 }) => (
   <div
-    className={`max-w-4xl  w-full mx-auto px-4 sm:px-6 md:px-8 ${className} fade-in`}
+    className={`max-w-4xl w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 ${className} fade-in`}
     role="main"
   >
     {children}
